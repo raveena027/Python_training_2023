@@ -102,16 +102,10 @@ def menu():
     print("3.Whatsapp")
     print("4.Email")
     print("5.SMS")
-    print("6.ChatGPT")
-    print("7.Geolocation")
-    print("8.Twitter")
-    print("9.wikipedia")
-    print("10.Audio player")
-    print("11.Video player")
-    print("12.Speak")
+    print("6.Geolocation")
+    print("7.Wikipedia")
+    print("8.Audio player")
     print("0. Exit")
-
-
 
 while True:
     menu()
@@ -135,12 +129,13 @@ while True:
     elif option == 5:
         send_sms()
 
-    elif option == 7:
+    elif option == 6:
         geolocation()
     
-    elif option == 9:
+    elif option == 7:
         wiki_info()
-    elif option == 10:
+        
+    elif option == 8:
         play_audio()
 
     else:
